@@ -4,27 +4,30 @@
 using namespace std;
 
 int main() {
-  int c;
-  int L;
+  double c;//cost per seed
   cin>>c;
+  int L;// number of lawns
   cin>>L;
   int l;//length
   int w;//width
-  double C;//cost
+  double A;//cost
   for(int i =0; i<L;i++)
     {
-      int t = i;
+      double l;//length
+      double w;//width
       
-      cin>> l >> w;
+  cin>> l >> w;
+      A += l*w;
+      
       
      
       
       
     }
   
-  C= (l*w)*c;
-   
-      cout<<"Total cost of seeds = "<<C<<endl;
+  
+  cout.precision(10);
+   cout<<"Total cost  = "<< A * c<<endl;
     
   
 }
