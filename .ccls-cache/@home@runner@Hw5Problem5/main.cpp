@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+//#include <cmath>
 
 using namespace std;
 
@@ -8,8 +8,8 @@ int main() {
   cin>>c;
   int L;// number of lawns
   cin>>L;
-  int l;//length
-  int w;//width
+  double l;//length
+  double w;//width
   double A;//cost
   for(int i =0; i<L;i++)
     {
@@ -26,8 +26,8 @@ int main() {
     }
   
   
-  cout.precision(10);
-   cout<<"Total cost  = "<< A * c<<endl;
+  cout.precision(6);
+   cout<<fixed<<"Total cost  = "<< A * c<<endl;
     
   
 }
