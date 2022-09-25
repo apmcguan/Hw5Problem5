@@ -8,18 +8,23 @@ int main() {
   int L;
   cin>>c;
   cin>>L;
-  
+  int l;//length
+  int w;//width
+  double C;//cost
   for(int i =0; i<L;i++)
     {
-      int l;//length
-      int w;//width
-      double C;//cost
+      int t = i;
+      
       cin>> l >> w;
-      C = (l*w)*c;
-      cout<<"Total cost of seeds = "<<C<<endl;
+      
+     
       
       
     }
+  
+  C= (l*w)*c;
+   
+      cout<<"Total cost of seeds = "<<C<<endl;
     
   
 }
